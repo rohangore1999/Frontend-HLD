@@ -1,4 +1,4 @@
-// Import the CSS file so Webpack can process it
+// Import the CSS file so Webpack can process it.
 import "../css/style.css";
 
 // This script demonstrates accessibility features enabled by using rem units
