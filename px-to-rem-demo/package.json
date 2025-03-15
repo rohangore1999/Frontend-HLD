@@ -1,0 +1,31 @@
+{
+  "name": "px-to-rem-demo",
+  "version": "1.0.0",
+  "description": "Demo for automatic px to rem conversion using PostCSS with Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "keywords": [
+    "accessibility",
+    "postcss",
+    "css",
+    "webpack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.11.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss": "^8.5.3",
+    "postcss-loader": "^7.3.4",
+    "postcss-pxtorem": "^6.1.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
+  }
+}

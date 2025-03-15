@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>px to rem Conversion Demo with Webpack</title>
+    <!-- CSS will be injected by Webpack -->
+  <script defer src="main.bundle.js"></script><link href="main.css" rel="stylesheet"></head>
+  <body>
+    <div class="container">
+      <h1 class="title">Pixel to Rem Conversion</h1>
+      <p class="text">
+        This text is styled using px units in the source, but converted to rem
+        at build time using Webpack and PostCSS.
+      </p>
+      <p class="text-large">This is some larger text.</p>
+      <button id="font-size-toggle" class="button">Toggle Font Size</button>
+    </div>
+    <!-- JS will be injected by Webpack -->
+  </body>
+</html>
