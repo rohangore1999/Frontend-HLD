@@ -28,7 +28,7 @@ Split UI rendering into three priority levels:
 
 
 ## Webpack build
-Your Application Bundles:
+Application Bundles:
 ![alt text](webpack-bundle.png)
 
 ## File Structure
